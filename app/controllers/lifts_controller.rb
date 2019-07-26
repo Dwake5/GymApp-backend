@@ -1,5 +1,6 @@
 class LiftsController < ApplicationController
 
+    # Creates a lift in the backend
     def create
         lift = Lift.new(reps: params[:reps], weight: params[:weight])
         if lift.save

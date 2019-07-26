@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+  
+  # This method existed as a test and showcase of a user and what that nested workout for
+  # Them might look like.
   def show
     user = User.find_by(id: params[:id])
     if user
