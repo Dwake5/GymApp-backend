@@ -15,6 +15,8 @@ During the creation of this project our cohort did stand-up every morning, sayin
 
 On Fridays we did a post-mortem, which was essentially a more technical and indepth stand-up. </p>
 
+I originally created this database with NoSQL, the rails default. I then changed it so I could deploy it on Heroku.
+
 <h3> Associations </h3> 
 
     A user -
